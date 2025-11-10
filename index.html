@@ -9,28 +9,44 @@
 <body>
     <div class="container">
         <header>
-            <img src="kadloy2.jpeg" >
-            <a href=""> KADLOY FOOD </a>
+           <div class="logo">
+              <img class="headerimg"
+               src="kadloy2.jpeg" >
 
-            <nav class="nav-menu" id="navMenu" aria-controls="primary navigation">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SERVICE</a>
-                <a href="#">LOGIN</a>
+               <a href="#" class="logotext"> KADLOY FOOD </a>
+             
+            </div>
+
+            <!-- HAMBURGER SECTION -->
+
+            <button class="hamburger" aria-expanded="false" aria-controls="primary navigation">
+
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <nav class="menu" id="primary-navigation" aria-label="primary">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li> <a href="#">LOGIN</a></li>
+                </ul>
             </nav>
 
-            <div class="hamburger" id="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+            
         </header>
 
         <!-- CONTENT SECTION -->
-        <section class="hero">
-         <h1>Welcome to <span>Kadloy Food</span></h1>
-         <p>You can order food from our choice meals </p>
-         <div class="gallery">
+        <div class="hero">
+            <h2>Welcome to <span class="blue">Kadloy Food</span></h2>
+
+         <h3 class="tagline"> You can order food from our choice meals </h3>
+
+        </div>
+
+        <div class="gallery">
             <img src="beans.jpeg" alt="food 1">
             <img src="fish and plantain.jpeg" alt="food 2"> 
             <img src="fries.jpeg" alt="food 3">
@@ -38,14 +54,14 @@
             <img src="Nkwobi.jpeg" alt="food 5">
             <img src="pounded yam.jpeg" alt="food 6">
             <img src="download.jpeg" alt="food 7">
-         </div>
+        </div>
 
-        </section>
+        <!-- DISPATCH SECTION -->
 
         <section class="dispatch">
             <div class="dispatch_text">
-                <h2>Trust our dispatch rider</h2>
-                <p>Your lunch is a call away!!</p>
+                <h3>Trust our dispatch rider</h3>
+                <h3>Your lunch is a call away!!</h3>
             </div>
 
             <div class="dispatch_img">
@@ -56,9 +72,9 @@
 
         <!-- FOOTER section -->
 
-        <footer>
-            <p>@Copyright ; Kadloy Foods</p>
-        </footer>
+        <div class="copyright">
+            &copy; Copyright 2025 Kadloy Foods
+        </div>
 
     </div>
 </body>
